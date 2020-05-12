@@ -1,0 +1,7 @@
+获取所有交换机
+curl -X GET http://127.0.0.1:8080/stats/switches
+获取交换机的流表
+curl -X GET http://localhost:8080/stats/flow/1
+
+ryu-manager --observe-links switch.py ofctl_rest.py 
+
